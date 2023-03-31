@@ -1,0 +1,7 @@
+{
+  "default": "bg-gray-400 text-gray-900",
+  "info": "bg-blue-200 text-blue-800",
+  "warning": "bg-yellow-200 text-yellow-900",
+  "error": "bg-red-100 text-red-900",
+  "critical": "bg-red-200 text-red-800"
+}

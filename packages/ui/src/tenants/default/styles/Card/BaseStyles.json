@@ -1,0 +1,5 @@
+{
+  "square": "max-w-sm pt-2 bg-white pb-2 filter drop-shadow-md text-white text-gray-900 text-left uppercase border rounded-md dark:border-gray-cool-900",
+
+  "row": "w-full bg-white dark:bg-gray-cool-850 filter drop-shadow-md py-2 text-center border rounded-md dark:border-gray-cool-900"
+}

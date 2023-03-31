@@ -1,0 +1,5 @@
+{
+  "square": "text-gray-cool-900 dark:text-gray-cool-200 text-left uppercase ml-2 text-left",
+
+  "row": "py-2 text-center text-gray-cool-900 dark:text-gray-cool-200 ml-2 text-left"
+}

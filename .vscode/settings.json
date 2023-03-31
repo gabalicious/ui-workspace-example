@@ -1,0 +1,33 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // colors
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fdeb84",
+    "activityBar.background": "#fdeb84",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#039d86",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#fdeb84",
+    "statusBar.background": "#fce352",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#fbdb20",
+    "statusBarItem.remoteBackground": "#fce352",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#fce352",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#fce35299",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#fce352"
+}

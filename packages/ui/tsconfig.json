@@ -1,0 +1,42 @@
+{
+  "extends": "tsconfig/vue-library.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.json",
+    "./index.ts",
+    "./shims-vue.d.ts"
+  ],
+
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "outDir": "./dist",
+    "allowUnreachableCode": false,
+    "noImplicitReturns": true,
+    "typeRoots": ["src/types"],
+    // 
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "rootDir": "./",
+    // "skipLibCheck": true,
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "declarationMap": false,
+
+    "paths": {
+      "@utils/*": ["src/utils/*"],
+      "@tenants/*": ["src/tenants/*"]
+    },
+    "types": [
+      "vite/client" // if using vite
+    ]
+  }
+}

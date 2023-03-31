@@ -1,0 +1,12 @@
+{
+  "primary": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "secondary": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "success": "bg-green-300 text-green-500 cursor-not-allowed",
+  "danger": "bg-red-300 text-red-500 cursor-not-allowed",
+  "warning": "bg-yellow-300 text-yellow-500 cursor-not-allowed",
+  "info": "bg-blue-300 text-blue-500 cursor-not-allowed",
+  "light": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "dark": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "outlinePrimary": "bg-transparent text-gray-500 cursor-not-allowed",
+  "outlineSecondary": "bg-transparent text-gray-500 cursor-not-allowed"
+}

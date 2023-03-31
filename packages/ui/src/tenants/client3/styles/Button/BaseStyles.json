@@ -1,0 +1,10 @@
+{
+  "primary": "text-white bg-client3-teal-500 hover:bg-client3-teal-700 active:bg-client3-teal-800",
+  "secondary": "text-white bg-client3-primary-700 hover:bg-client3-primary-800 active:bg-client3-primary-900",
+  "success": "text-white bg-client3-success-600 hover:bg-client3-success-700 active:bg-client3-success-800",
+  "danger": "text-white bg-client3-danger-600 hover:bg-client3-danger-700 active:bg-client3-danger-800",
+  "warning": "text-white bg-client3-warning-600 hover:bg-client3-warning-700 active:bg-client3-warning-800",
+  "info": "text-white bg-client3-blue-600 hover:bg-client3-blue-700 active:bg-client3-blue-800",
+  "dark": "text-white bg-client3-teal-700 hover:bg-client3-teal-800 active:bg-client3-teal-900",
+  "primaryOutline": "text-client3-teal-500 border border-client3-teal-500 hover:bg-client3-teal-500 hover:text-white active:bg-client3-teal-700 active:text-white"
+}

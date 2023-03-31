@@ -1,0 +1,12 @@
+{
+  "primary": "bg-client3-primary-200 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500 cursor-not-allowed",
+  "secondary": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "success": "bg-green-300 text-green-500 cursor-not-allowed",
+  "danger": "bg-red-300 text-red-500 cursor-not-allowed",
+  "warning": "bg-yellow-300 text-yellow-500 cursor-not-allowed",
+  "info": "bg-blue-300 text-blue-500 cursor-not-allowed",
+  "light": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "dark": "bg-gray-300 text-gray-500 cursor-not-allowed",
+  "outlinePrimary": "bg-transparent text-gray-500 cursor-not-allowed",
+  "outlineSecondary": "bg-transparent text-gray-500 cursor-not-allowed"
+}
