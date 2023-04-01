@@ -2,7 +2,6 @@
   <Button
     className="m-3"
     :theme="theme"
-    id="asd"
     :variant="variant"
     :size="size"
     :disabled="disabled"
