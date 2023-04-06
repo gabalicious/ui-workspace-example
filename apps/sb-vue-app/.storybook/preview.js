@@ -12,7 +12,7 @@ let ThemeNames = [
   // "client6",
 ];
 ThemeNames.sort();
-// ThemeNames.unshift("default");
+ThemeNames.unshift("default");
 
 export const globalTypes = {
   clientTheme: {
