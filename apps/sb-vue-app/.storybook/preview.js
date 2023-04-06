@@ -15,7 +15,7 @@ ThemeNames.sort();
 ThemeNames.unshift("default");
 
 export const globalTypes = {
-  theme: {
+  clientTheme: {
     name: "Client Theme",
     description: "Global theme for components",
     toolbar: {

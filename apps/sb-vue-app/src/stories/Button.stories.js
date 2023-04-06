@@ -77,9 +77,10 @@ export default {
 const Template = (args, template) => ({
   components: { Button },
   setup() {
-    if (template?.globals?.theme) {
-      // You need to use a spread operator to merge the theme into the args object
-      args = { ...args, theme: template.globals.theme };
+    if (template?.globals?.clientTheme) {
+      // You need to use a spread operator to merge the clientTheme into the args object
+      args = { args };
+      args.theme = template.globals.clientTheme;
     }
 
     return { args };

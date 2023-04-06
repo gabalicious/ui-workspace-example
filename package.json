@@ -29,6 +29,6 @@
   },
   "packageManager": "npm@8.19.2",
   "dependencies": {
-    "dotenv-cli": "^7.1.0"
+    "dotenv-cli": "^7.2.1"
   }
 }
