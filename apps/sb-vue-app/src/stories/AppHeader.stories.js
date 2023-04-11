@@ -23,14 +23,17 @@ const Template = (args) => ({
   </AppHeader>`,
 });
 
-export const Base = Template.bind({});
-Base.args = {
-  leftContent: `
-  <div class="rounded-full w-14 h-14 bg-blue-500"></div>
-  <h1 class="text-15 ">App Header</h1>
-`,
-  centerContent: `Route name`,
-  rightContent: `
-<h1 class="text-15 ">Other Stuff</h1>
-`,
+export const Base = {
+  render: Template,
+
+  args: {
+    leftContent: `
+    <div class="rounded-full w-14 h-14 bg-blue-500"></div>
+    <h1 class="text-15 ">App Header</h1>
+  `,
+    centerContent: `Route name`,
+    rightContent: `
+  <h1 class="text-15 ">Other Stuff</h1>
+  `,
+  },
 };

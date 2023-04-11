@@ -79,52 +79,75 @@ const Template = (args, template) => ({
   setup() {
     if (template?.globals?.clientTheme) {
       // You need to use a spread operator to merge the clientTheme into the args object
-      args = { args };
-      args.theme = template.globals.clientTheme;
+      args = { ...args, theme: template.globals.clientTheme };
     }
+    console.log("Changes...", args, template);
 
     return { args };
   },
   template: `<Button v-bind="args">${args.slot || args.variant}</Button>`,
 });
 
-export const Primary = Template.bind({});
-Primary.args = {
-  variant: "primary",
+export const Primary = {
+  render: Template,
+
+  args: {
+    variant: "primary",
+  },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  variant: "secondary",
+export const Secondary = {
+  render: Template,
+
+  args: {
+    variant: "secondary",
+  },
 };
 
-export const Success = Template.bind({});
-Success.args = {
-  variant: "success",
+export const Success = {
+  render: Template,
+
+  args: {
+    variant: "success",
+  },
 };
 
-export const Danger = Template.bind({});
+export const Danger = {
+  render: Template,
 
-Danger.args = {
-  variant: "danger",
+  args: {
+    variant: "danger",
+  },
 };
 
-export const Warning = Template.bind({});
-Warning.args = {
-  variant: "warning",
+export const Warning = {
+  render: Template,
+
+  args: {
+    variant: "warning",
+  },
 };
 
-export const Info = Template.bind({});
-Info.args = {
-  variant: "info",
+export const Info = {
+  render: Template,
+
+  args: {
+    variant: "info",
+  },
 };
 
-export const Light = Template.bind({});
-Light.args = {
-  variant: "light",
+export const Light = {
+  render: Template,
+
+  args: {
+    variant: "light",
+  },
 };
 
-export const Dark = Template.bind({});
-Dark.args = {
-  variant: "dark",
+export const Dark = {
+  render: Template,
+
+  args: {
+    variant: "dark",
+  },
 };
